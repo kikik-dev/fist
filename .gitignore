@@ -1,0 +1,21 @@
+# Cargo build output (workspace root and all members)
+target/
+
+# rustfmt backups
+**/*.rs.bk
+
+# Tooling / secrets
+.vscode/
+.idea/
+.env
+*.log
+
+# Local / scratch (not for the public repo)
+prd.txt
+todo-list.txt
+SUMMARY.md
+
+# OS / Windows build noise
+.DS_Store
+Thumbs.db
+*.pdb
